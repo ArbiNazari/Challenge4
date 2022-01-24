@@ -1,81 +1,81 @@
-
 <!doctype html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <div class="wrapper">
-    <title>Challenge 4 - Code Quiz</title>
+        <title>Challenge 4 - Code Quiz</title>
 </head>
 <header>
     <h1 class="pg">Coding Quiz Challenge</h1>
 </header>
+
 <body>
 
     <div class="card">
-         <div class="row">
-            <div id="viewHScores">Click Here For Highscores</div>
+        <div class="row">
+            <div id="viewScores">Click Here For Highscores</div>
         </div>
     </div>
     <br>
     <div class="card">
-    <div class="cardtimer">Time: <span id="timer">0</span></div>
+        <div class="cardtimer">Quiz Timer: <span id="timer">0</span></div>
     </div>
     <br>
     <div class="card">
-        <div class="jumbotron jumbotron-fluid text-center">
+        <div class="prompt">
 
-            <!-- welcome  -->
+
             <div class="card" id="welcome">
                 <h1 class="card-body">Coding Quiz Challenge</h1>
-                <p class="charact">This Quiz will be on a timer. Icorrect answers will cause further deduction of your time.
+                <p class="charact">This quiz will be on a timer. Incorrect answers will cause further deduction of your
+                    time.
                     Good Luck!</p>
                 <button type="button" class="btn" id="startQuiz">Start Quiz</button>
 
             </div>
 
-            <!-- quiz -->
-            <div class="card" id="quiz">
-                <h1 class="h1 mb-4" id="question"></h1>
+            <div class="card" id="quizTime">
+                <h1 class="card" id="question"></h1>
                 <div class="card" id="answers">
                     <div class="row">
-                        <button type="button" class="btn btn-primary btn-lg btn-block mb-3 text-left" id="0"></button>
+                        <button type="button" class="btn" id="0"></button>
                     </div>
                     <div class="row">
-                        <button type="button" class="btn btn-primary btn-lg btn-block mb-3 text-left" id="1"></button>
+                        <button type="button" class="btn" id="1"></button>
                     </div>
                     <div class="row">
-                        <button type="button" class="btn btn-primary btn-lg btn-block mb-3 text-left" id="2"></button>
+                        <button type="button" class="btn" id="2"></button>
                     </div>
                     <div class="row">
-                        <button type="button" class="btn btn-primary btn-lg btn-block mb-3 text-left" id="3"></button>
+                        <button type="button" class="btn" id="3"></button>
                     </div>
                 </div>
             </div>
 
-            <!-- input high scores -->
-            <div class="card" id="inputScore">
-                <h1 class="h1 mb-4">All done!</h1>
-                <p class="lead mb-4">Your final score: <span id="score"></span></p>
-                <p class="lead mb-4">Enter initials: <input type="text " id="initials"></p>
-                <button type="button" class="btn btn-primary btn-lg" id="submitInitials">Submit</button>
+
+            <div class="card" id="scoreInput">
+                <h1 class="card">Quiz Completed</h1>
+                <p class="card">Your Score: <span id="score"></span></p>
+                <p class="card">Please Enter Your Initials: <input type="text " id="initials"></p>
+                <button type="button" class="btn" id="submitInitials">Submit</button>
             </div>
 
-            <!-- view high scores -->
+
             <div class="card" id="highScores">
-                <h1 class="h1 mb-4 font-weigth-bold">Highscores</h1>
+                <h1 class="card">Highscores</h1>
                 <div class="card" id="scores">
                 </div>
-                <button type="button" class="btn" id="goBack">Go Back</button>
-                <button type="button" class="btn" id="clearScores">Clear Scores</button>
+                <button type="button" class="btn" id="goBack">Main Menu</button>
+                <button type="button" class="btn" id="clearScores">Clear All Scores</button>
             </div>
 
 
         </div>
     </div>
-    <script src="assets/js/script.js"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
 
 </html>

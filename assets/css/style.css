@@ -1,22 +1,9 @@
-
-#welcome, #quiz, #inputScore, #highScores {
-    width: 70%;
+#welcome, #quizTime, #scoreInput, #highScores {
+    width: 80%;
 }
 
-#quiz, #inputScore, #highScores {
+#quizTime, #scoreInput, #highScores {
     display: none;
-}
-
-.jumbotron {
-    background-color: white;
-}
-
-html,
-body,
-.wrapper {
-  height: 100%;
-  margin: 0;
-  padding: 0;
 }
 
 body {
@@ -24,9 +11,6 @@ body {
   background-color: #466686;
 }
 
-.container {
-    color: rgb(73, 13, 13);
-}
 .pg {
     color:rgb(255, 251, 251);
 }
@@ -51,7 +35,7 @@ header {
 }
 
 .row {
-  color: rgb(234, 0, 255);
+  color: rgb(13, 112, 13);
   font-size: 20px;
   justify-content: center;
 }
@@ -60,10 +44,6 @@ header {
     color: rgb(0, 47, 255);
     font-size: 20px;
     justify-content: center;
-}
-
-.lenght {
-width: 3rem;
 }
 
 .card {
@@ -78,21 +58,9 @@ width: 3rem;
   padding: 30px 40px;
 }
 
-.card-header::after {
-  content: " ";
-  display: block;
-  width: 100%;
-  background: #e7e9eb;
-  height: 2px;
-}
-
-.card-body {
-  min-height: 100px;
-}
-
 .btn {
   border: none;
-  background-color: rgb(8, 100, 175);
+  background-color: rgb(207, 63, 26);
   border-radius: 25px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
     0px;
@@ -120,10 +88,7 @@ width: 3rem;
     margin: 16px 0px 0px 0px;
     padding: 10px 15px;
   }
-
-  #password {
-    font-size: 1rem;
-  }
+  
 }
 
 @media (max-width: 500px) {
