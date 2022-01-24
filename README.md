@@ -10,4 +10,7 @@ Development of Code Quiz
 - Quiz Ends when timer expires or all questions are answered
 - User can see their scores and save their initials
 
-By Arbi Nazari.
+By Arbi Nazari
+
+
+![quiz](https://user-images.githubusercontent.com/95839411/150708947-0ad585f4-6337-4216-9706-3cc9459b7bef.jpg)
