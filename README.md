@@ -12,3 +12,4 @@ Development of Code Quiz
 
 By Arbi Nazari.
 
+![quiz](https://user-images.githubusercontent.com/95839411/150709246-73bbb202-f5fd-4b70-865e-97330eb1b603.jpg)
